@@ -1,0 +1,13 @@
+digraph "DAG Example" {
+	rankdir=LR size="8,5"
+	A [label=Start]
+	B [label="Step 1"]
+	C [label="Step 2"]
+	D [label="Step 3"]
+	E [label=Finish]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	B -> D
+}
