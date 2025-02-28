@@ -78,7 +78,7 @@ def policy_backward(eph, epdlogp):
   print(dh.shape)
 
 
-  dh[eph <= 0] = 0 # backpro prelu
+  dh[eph <= 0] = 0 # backprop relu
   dW1 = np.dot(dh.T, epx)
   # (200, 6400)
   print(dW1.shape)
