@@ -459,7 +459,7 @@ def simple_working_example():
     print("This demonstrates that SDPA works correctly with proper tensor shapes.")
 
 if __name__ == "__main__":
-    # Run the simple working example first
+
     testdata = create_test_data_for_extend()
 
     _run_sdpa_forward_extend(
