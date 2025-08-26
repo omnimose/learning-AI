@@ -1,3 +1,5 @@
+// cpp code and PYBIND11_MODULE in the same file
+
 #include <pybind11/pybind11.h>
 
 namespace py = pybind11;
